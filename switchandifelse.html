@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>HTML Template</title>
+    <title>DIFFERENCE between switch and if-else</title>
   </head>
   <body> 
     What is the difference between ‘switch’ and ‘if/else’? When would you use one versus
@@ -20,22 +20,22 @@ import java.util.Scanner;<br/><br/>
 public class CollegeAdmission {<br/>
   public static void main( String[] args ) {<br/>
     Scanner keyboard = new Scanner(System.in);<br/>
-    int math;
+    int math;<br/><br/>
 
-    out.println( "Welcome to the UT Austin College Admissions Interface!" );
-    out.println( "Please enter your SAT math score (200-800): ");
-    math = keyboard.nextInt();
+    out.println( "Welcome to the UT Austin College Admissions Interface!" );<br/>
+    out.println( "Please enter your SAT math score (200-800): ");<br/>
+    math = keyboard.nextInt();<br/><br/>
 
-    out.print( "Admittance status: " );
+    out.print( "Admittance status: " );<br/><br/>
 
-    if ( math >= 790 )
-      out.print( "CERTAIN" );  
-    else if ( math >= 710 )
-      out.print( "SAFE" );
-    else if ( math >= 580 )
-      out.print( "PROBABLE" );
-    else if ( math >= 500 )
-      out.print( "UNCERTAIN" );
+    if ( math >= 790 )<br/>
+      out.print( "CERTAIN" );  <br/>
+    else if ( math >= 710 )<br/>
+      out.print( "SAFE" );<br/>
+    else if ( math >= 580 )<br/>
+      out.print( "PROBABLE" );<br/>
+    else if ( math >= 500 )<br/>
+      out.print( "UNCERTAIN" );<br/><br/>
       
 <p> If someone scores a 720 on their Sat, thereby making the first if statement FALSE, then this particular if/else
 provides a secondary path of execution (in line 27 above), since the first if statement is false. This will make the student feel "safe"
